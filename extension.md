@@ -10,6 +10,7 @@ to only itself, allowing all other nodes without the updated functionality to ig
 New features may be added, so long as the format of their unique header identifier is not overlapping 
 with another feature.
 
+
 ### Send to any individual on the whole UW campus
 For a sender to be able to send to any individual on the UW campus, each card must be equipped with a 
 lat/long location identifier followed by the person's first and last name converterd to it's numerical 
@@ -36,7 +37,7 @@ For new content types in the future, their code will be denoted by some section 
 as none of them are duplicates of previously established content type codes.
 
 
-###Keep a record of what nodes the card has passed through.
+### Keep a record of what nodes the card has passed through.
 To keep a record of what nodes the card has passed through, we will equip eahc node with a unique identifier
 code. When the card is passed through a node, the node will write starting on the bottom left of the backside
 of the card its unique identifier code (ex. 1c3r9). The codew will be written from left to write, which also 

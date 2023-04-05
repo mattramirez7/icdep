@@ -1,5 +1,6 @@
-#Extension
-##**How can we add additional features to the protocol without breaking previous functionality?**\
+# Extension
+
+## **How can we add additional features to the protocol without breaking previous functionality?**
 
 To ensure the ability to add additional features to the protocol without breaking its previous
 functionality, I would create a header containing metadata on each card that a node receiving 
@@ -9,7 +10,7 @@ to only itself, allowing all other nodes without the updated functionality to ig
 New features may be added, so long as the format of their unique header identifier is not overlapping 
 with another feature.
 
-###Send to any individual on the whole UW campus
+### Send to any individual on the whole UW campus
 For a sender to be able to send to any individual on the UW campus, each card must be equipped with a 
 lat/long location identifier followed by the person's first and last name converterd to it's numerical 
 representation separated by a '/', where A = 1, B = 2, C = 3, etc. This will be located on the back top 
@@ -22,7 +23,7 @@ location. Once the location is reached, the node will use the name information t
 until a node recognizes the numerical name representation.
 
 
-###Specify whether contents are ASCII text, Unicode text, or binary values
+### Specify whether contents are ASCII text, Unicode text, or binary values
 To specify whether contents are ASCII text, Unicode text, or binary values each encoding type will be 
 assigned a unique value located in the back top right corner of the card. For these examples, the code 
 will look like this respectively (CT = Content-Type:)
